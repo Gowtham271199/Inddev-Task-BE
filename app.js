@@ -9,7 +9,7 @@ const app = express();
 
 // Connect to database
 connectDB();
-
+//
 // Middleware
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON bodies
